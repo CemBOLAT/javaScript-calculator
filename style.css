@@ -1,0 +1,68 @@
+main{
+    display: grid;
+    height: 100vh;
+}
+#buttonStage{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 13px;
+}
+#buttonStage table tr td{
+    border: 1px black solid;
+    width: 80px;
+    height: 80px;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    background-color: rgb(179, 174, 174);
+}
+#buttonStage table #first td:nth-child(1){
+    background-color: rgb(241, 8, 8) !important;
+}
+#buttonStage table #first td{
+    background-color: rgb(128, 128, 128) !important;
+}
+#buttonStage table #second td:nth-child(4){
+    background-color: gray !important;
+}
+#buttonStage table #third td:nth-child(4){
+    background-color: gray !important;
+}
+#buttonStage table #fifth td:nth-child(3){
+    background-color: #fa10bf !important;
+}
+
+#buttonStage table #first td:nth-child(4){
+    font-size: 40px;
+    position: relative;
+}
+
+#buttonStage table tr td:hover{
+    color: black;
+    border: 1px black solid;
+    transform: scale(1.05);
+}
+#actionStage{
+    position: relative;
+    bottom: 10px;
+    height: 75px;
+    right: 40px;
+    bottom: 25px;
+    text-align: right;
+    font-size: 40px;
+    color: rgb(255, 184, 51);
+}
+
+#footer-box{
+    text-align: center;
+}
+#myName a{
+    color: rgb(216, 9, 95);
+    text-transform: none;
+    text-decoration: none;
+}
+#myName a:hover{
+    color: rgb(255, 253, 127);
+}
