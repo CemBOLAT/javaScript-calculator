@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Cemal Bolat">
+        <meta name="description" content="javaScriptCalculator">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+        <title>JavaScript Calculator</title>
+    </head>
+    <body>
+        <main>
+            <div id="calculator">
+                <div id="screen">
+                    <section id="actionStage">
+                        <h1 id="actionStageDisplay"></h1>
+                    </section>
+                </div>
+                <div id="buttonStage">
+                    <table>
+                        <tr id="first">
+                            <td colspan="1" class="button">AC</td>
+                            <td colspan="1" class="button">DEL</td>
+                            <td class="button">/</td>
+                            <td class="button">*</td>
+                        </tr>
+                        <tr id="second">
+                            <td data-numer="7" class="button">7</td>
+                            <td class="button">8</td>
+                            <td class="button">9</td>
+                            <td class="button">-</td>
+                        </tr>
+                        <tr id="third">
+                            <td class="button">4</td>
+                            <td class="button">5</td>
+                            <td class="button">6</td>
+                            <td class="button">+</td>
+                        </tr>
+                        <tr id="forth">
+                            <td class="button">1</td>
+                            <td class="button">2</td>
+                            <td class="button">3</td>
+                            <td class="button">(</td>
+                        </tr>
+                        <tr id="fifth">
+                            <td class="button">0</td>
+                            <td class="button">.</td>
+                            <td class="button">=</td>
+                            <td class="button">)</td>
+                        </tr>
+                    </table>
+                </div>
+                <h1 id="footer-box">
+                    Designed and Coded by<br>
+                    <span id="myName">
+                        <a target="_blank" href="https://github.com/CemBOLAT/CemBOLAT">Cemal Bolat</a>
+                    </span>
+                </h1>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
