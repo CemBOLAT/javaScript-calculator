@@ -5,8 +5,8 @@
 }
 #calculator{
     background-color: #41487C;
-    width: 330px;
-    height: 550px;
+    width: 525px;
+    height: 740px;
     display: grid;
     justify-self: center;
     align-self:center;
@@ -23,18 +23,18 @@ main{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    bottom: 13px;
+    bottom: 20px;
 }
 #buttonStage table tr td{
     border: 1px black solid;
-    width: 80px;
-    height: 80px;
+    width: 125px;
+    height: 120px;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     position: relative;
     background-color: #41487C;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 #buttonStage table #first td{
     background-color: #FB7433;
