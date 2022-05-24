@@ -5,7 +5,7 @@ let calculation = 0
 buttons.forEach((button) => {
     button.addEventListener("click",(e)=>{
         switch(e.target.textContent){
-            case "AC":
+            case "C":
                 fullDelete()
                 break;
             case "DEL":
